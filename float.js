@@ -11,6 +11,7 @@ function Float(n) {
     }
     this.value = n;
     this.bytes = bytes;
+    this.sign = bytes[0][0];
     this.negative = bytes[0][0] === "1";
     this.exponent = bytes[0].substring(1) + bytes[1].substring(0, 4);
     this.mantissa = bytes[1].substring(4) + bytes.slice(2).join("");
