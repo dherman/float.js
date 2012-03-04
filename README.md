@@ -1,6 +1,6 @@
 ## float.js
 
-A little mirror class for introspecting the bit-patterns of floating-point numbers using typed arrays.
+A little mirror class for introspecting the bit-patterns of JS numbers using typed arrays.
 
 Example:
 
