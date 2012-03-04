@@ -32,9 +32,7 @@ Float.prototype.toString = function() {
 };
 
 Float.prototype.toBitString = function() {
-    return (this.negative ? "1" : "0") +
-           this.exponent +
-           this.mantissa;
+    return (this.negative ? "1" : "0") + this.exponent + this.mantissa;
 };
 
 Number.prototype.introspect = function() {
