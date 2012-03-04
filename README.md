@@ -11,6 +11,8 @@ Math.E.introspect().exponent;      //  "10000000000"
 (-Math.PI).introspect().negative;  // true
 ```
 
+Interactively explore at [http://dherman.github.com/float.js](http://dherman.github.com/float.js).
+
 ## License
 
 Copyright © 2012 Dave Herman
