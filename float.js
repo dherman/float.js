@@ -18,7 +18,7 @@ function Float(n) {
 }
 
 // typed arrays are endianness-sensitive!
-Float.LITTLE_ENDIAN = !!(new Uint8Array((new Uint32Array([1])).buffer));
+Float.LITTLE_ENDIAN = !!((new Uint8Array((new Uint32Array([1])).buffer))[0]);
 
 Float.prototype.LITTLE_ENDIAN = Float.LITTLE_ENDIAN;
 
